@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe3951e0.css",
-    "main.js": "/static/js/main.37d7525b.js",
+    "main.css": "/static/css/main.d071b209.css",
+    "main.js": "/static/js/main.90c07d46.js",
     "static/js/787.219025fc.chunk.js": "/static/js/787.219025fc.chunk.js",
     "static/media/DistributerFlex.png": "/static/media/DistributerFlex.4fbec9ce110e74bb91d6.png",
     "static/media/DevtaGensets2.jpg": "/static/media/DevtaGensets2.8b4a48aa502f0e00a448.jpg",
@@ -36,22 +36,26 @@
     "static/media/service3.png": "/static/media/service3.1341656a131da6231dad.png",
     "static/media/news2.jpg": "/static/media/news2.faeda4b04bba1e3ee8df.jpg",
     "static/media/service21.png": "/static/media/service21.4c4b111f40091ebc8458.png",
+    "static/media/construction_sites.jpeg": "/static/media/construction_sites.8f65a02266f52de4d2cc.jpeg",
     "static/media/crausal5.jpg": "/static/media/crausal5.accb68022f0eef642767.jpg",
     "static/media/service10.png": "/static/media/service10.18719376b55d6cc95857.png",
     "static/media/crausal6.jpg": "/static/media/crausal6.961b58294168620738b5.jpg",
     "static/media/devrana.png": "/static/media/devrana.005ddafe1cef99e15c8d.png",
     "static/media/service13.png": "/static/media/service13.9ab5bcc286e2de02c1c8.png",
+    "static/media/mall.jpg": "/static/media/mall.c7d3bed12b3e5aa649b5.jpg",
     "static/media/service5.png": "/static/media/service5.37f3dcde8a571c69add8.png",
     "static/media/compare_list.png": "/static/media/compare_list.a197324db3007edda37c.png",
+    "static/media/hospital.jpg": "/static/media/hospital.ea7c5e9ee0274d491f2f.jpg",
     "static/media/brahamrana.png": "/static/media/brahamrana.83f08d94a4182c5349b7.png",
+    "static/media/factory image.jpg": "/static/media/factory image.4fb2fab819ce438cb200.jpg",
     "static/media/bike_main.png": "/static/media/bike_main.f3a8ca3e8d9e73ce8ca1.png",
     "index.html": "/index.html",
-    "main.fe3951e0.css.map": "/static/css/main.fe3951e0.css.map",
-    "main.37d7525b.js.map": "/static/js/main.37d7525b.js.map",
+    "main.d071b209.css.map": "/static/css/main.d071b209.css.map",
+    "main.90c07d46.js.map": "/static/js/main.90c07d46.js.map",
     "787.219025fc.chunk.js.map": "/static/js/787.219025fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe3951e0.css",
-    "static/js/main.37d7525b.js"
+    "static/css/main.d071b209.css",
+    "static/js/main.90c07d46.js"
   ]
 }

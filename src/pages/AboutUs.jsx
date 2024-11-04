@@ -22,6 +22,11 @@ import brahamrana from "../resource/brahamrana.png";
 import logoabout4 from "../resource/logoabout4.png";
 import logoabout3 from "../resource/logoabout3.png";
 import logoabout5 from "../resource/logoabout5.png";
+import dmrc from "../resource/dmrc images.jpg";
+import coconstructionSite from "../resource/construction_sites.jpeg";
+import factoryImage from "../resource/factory image.jpg";
+import mall from "../resource/mall.jpg";
+import hospital from "../resource/hospital.jpg";
 
 
 import pusparaj from "../resource/pusparaj.png";
@@ -325,31 +330,27 @@ export const AboutUs = () => {
 
 
 <div className="flex flex-col min-h-screen w-full justify-items-center items-center py-2 px-4 bg-black">
-  {/* Heading */}
-  <div className="font-extrabold text-4xl md:text-5xl text-blue-700 text-center mb-8"
-    style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)" }}>
-    Our Customers
-  </div>
+        {/* Heading */}
+        <div className="font-extrabold text-4xl md:text-5xl text-blue-700 text-center mb-8"
+          style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)" }}>
+          Our Customers
+        </div>
 
-  {/* Subheading Text */}
-  <div className="text-lg text-white text-center mb-4 max-w-2xl">
-    Discover the benefits of our services and how they can improve your life.
-    Here are some key benefits that make us stand out.
-  </div>
+        {/* Subheading Text */}
+        <div className="text-lg text-white text-center mb-4 max-w-2xl">
+          We take pride in serving a diverse group of customers who trust our services to enhance their work and life.
+        </div>
 
-  <div className="m-16 mt-4">
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-      <img src={crausal1} alt="Gallery Image 1" className="w-full h-40 object-cover rounded-lg" />
-      <img src={crausal1} alt="Gallery Image 2" className="w-full h-40 object-cover rounded-lg" />
-      <img src={crausal1} alt="Gallery Image 3" className="w-full h-40 object-cover rounded-lg" />
-      <img src={crausal1} alt="Gallery Image 4" className="w-full h-40 object-cover rounded-lg" />
-      <img src={crausal1} alt="Gallery Image 5" className="w-full h-40 object-cover rounded-lg" />
-    </div>
-  </div>
-
-
-
-</div>
+        <div className="m-16 mt-4 mb-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+            <img src={coconstructionSite} alt="Customer Image 2" className="w-full h-40 object-cover rounded-lg" />
+            <img src={factoryImage} alt="Customer Image 3" className="w-full h-40 object-cover rounded-lg" />
+            <img src={dmrc} alt="Customer Image 1" className="w-full h-40 object-cover rounded-lg" />
+            <img src={mall} alt="Customer Image 4" className="w-full h-40 object-cover rounded-lg" />
+            <img src={hospital} alt="Customer Image 5" className="w-full h-40 object-cover rounded-lg" />
+          </div>
+        </div>
+      </div>
 
 <BusinessBook />
             

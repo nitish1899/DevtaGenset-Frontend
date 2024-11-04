@@ -287,42 +287,47 @@ export const AboutUs = () => {
   </div>
 
 
-  <div className="mt-4 flex justify-center">
-    <div className="flex mb-6">
-      {/* Image container */}
-      <img
-        src={devrana}
-        alt="Mr. Dev Rana"
-        className="w-48 h-48 rounded-full object-cover shadow-lg mr-16"
-      />
-      {/* Text container */}
-      <div className="text-left max-w-lg">
-        <h3 className="text-2xl font-bold text-white">Mr. Dev Rana</h3>
-        <p className="text-white text-lg mb-2">CEO</p>
-        <p className="text-white text-md leading-relaxed line-clamp-5">
-          Dev Rana is the CEO and Director of DEVTA GENSETS PRIVATE LIMITED, bringing visionary leadership and extensive expertise in the power solutions industry. Under his guidance, the company has grown to provide reliable, high-quality energy solutions. His dedication to innovation and operational excellence drives DEVTA GENSETS’ commitment to empowering communities and businesses with dependable power systems. Dev Prakash Rana's leadership ensures that the company maintains a strong focus on customer satisfaction, sustainability, and continuous improvement in all aspects of its operations.
-        </p>
-      </div>
-    </div>
-  </div>
-
   <div className="mt-8 flex justify-center">
-    <div className="flex mb-1">
+    <div className="flex mb-6 mr-4">
 
-      {/* Text container */}
-      <div className="text-left max-w-lg">
-        <h3 className="text-2xl font-bold text-white">Mr. Braham Rana</h3>
-        <p className="text-white text-lg mb-2">Managing Director</p>
-        <p className="text-white text-md leading-relaxed line-clamp-5">
-          Braham Rana is the Managing Director of Devta Gensets Private Limited, registered with the Ministry of Corporate Affairs under DIN 02805943. Based in North Delhi, India, he plays a pivotal role in overseeing the company’s operations and strategic direction. With a strong commitment to innovation and service excellence, Braham Rana has been instrumental in leading Devta Gensets to new heights, focusing on providing top-quality power solutions. Under his leadership, the company, with a paid-up capital of ₹1,840,000.00, continues to thrive in delivering reliable energy systems and maintaining a reputation for industry expertise and customer satisfaction.
-        </p>
-      </div>
       {/* Image container */}
       <img
         src={brahamrana}
         alt="Mr. Braham Rana"
-        className="w-48 h-48 rounded-full object-cover shadow-lg ml-16"
+        className="w-48 h-48 rounded-full object-cover shadow-lg mr-12"
       />
+
+      {/* Text container */}
+      <div className="text-left max-w-3xl">
+        <h3 className="text-2xl font-bold text-white">Mr. Braham Rana</h3>
+        <p className="text-white text-lg mb-2">Director</p>
+        <p className="text-white text-md leading-relaxed line-clamp-7">
+          Braham Rana is the Director of Devta Gensets Private Limited, registered with the Ministry of Corporate Affairs under DIN 02805943. Based in North Delhi, India, he plays a pivotal role in overseeing the company’s operations and strategic direction. With a strong commitment to innovation and service excellence, Braham Rana has been instrumental in leading Devta Gensets to new heights, focusing on providing top-quality power solutions. Under his leadership, the company, with a paid-up capital of ₹1,840,000.00, continues to thrive in delivering reliable energy systems and maintaining a reputation for industry expertise and customer satisfaction.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div className="mt-4 flex justify-center">
+    <div className="flex mb-6 ml-8">
+
+      {/* Text container */}
+      <div className="text-left max-w-3xl mr-8">
+        <h3 className="text-2xl font-bold text-white">Mr. Dev Rana</h3>
+        <p className="text-white text-lg mb-2">Director</p>
+        <p className="text-white text-md leading-relaxed line-clamp-7">
+          Dev Rana is the Director of DEVTA GENSETS PRIVATE LIMITED, bringing visionary leadership and extensive expertise in the power solutions industry. Under his guidance, the company has grown to provide reliable, high-quality energy solutions. His dedication to innovation and operational excellence drives DEVTA GENSETS’ commitment to empowering communities and businesses with dependable power systems. Dev Prakash Rana's leadership ensures that the company maintains a strong focus on customer satisfaction, sustainability, and continuous improvement in all aspects of its operations.
+        </p>
+      </div>
+
+      {/* Image container */}
+      <img
+        src={devrana}
+        alt="Mr. Dev Rana"
+        className="w-48 h-48 rounded-full object-cover shadow-lg mr-8"
+      />
+
     </div>
   </div>
 

@@ -130,20 +130,20 @@ export const Home = () => {
             className="text-4xl md:text-6xl font-bold mb-4"
             style={{ textShadow: "2px 2px 4px black, 4px 4px 6px rgba(0, 0, 0, 0.6)" }}
           >
-            Effortless Buying and Selling of Generators
+            Effortless Renting of Generators
           </h1>
           <p
             className="text-lg md:text-xl mb-8"
             style={{ textShadow: "2px 2px 4px black, 4px 4px 6px rgba(0, 0, 0, 0.6)" }}
           >
-            At Effortless Generators, we believe that buying and selling generators should be a simple and stress-free experience. Our user-friendly platform connects buyers and sellers, making it easier than ever to find the perfect generator for your needs or to sell your equipment with ease.
+            At Effortless Generators, we believe that renting generators should be simple and stress-free. Our user-friendly platform connects buyers and sellers, making it easier than ever to find the perfect generator for your needs or to sell equipment with ease.
           </p>
-          <Link
+          {/* <Link
             to="/"
             className="inline-block bg-green-500 text-white text-lg font-semibold py-3 px-6 rounded-full shadow hover:bg-yellow-400 transition duration-200"
           >
             GET STARTED
-          </Link>
+          </Link> */}
         </div>
       </div>
 
@@ -375,7 +375,7 @@ export const Home = () => {
               alt="Specialized Transport"
               className="w-full h-40 object-cover mb-4 rounded-md sm:h-32 md:h-40 lg:h-48"
             />
-            <h4 className="font-bold mb-2">625 KVA Mahindra Powerol Diesel Generatoron</h4>
+            <h4 className="font-bold mb-2">625 KVA Mahindra Powerol Diesel Generator</h4>
 
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -418,8 +418,7 @@ export const Home = () => {
 
         {/* Subheading Text */}
         <div className="text-lg text-white text-center mb-8 max-w-2xl">
-          Meet Our Leader Braham Rana, Driving Innovation at Devta Gensets discover the benefits of our services and how they can improve your life.
-          Here are some key benefits that make us stand out.
+          Meet our leader, Braham Rana, driving innovation at Devta Gensets. Discover the benefits of our services and how they can make a positive impact on your life.
         </div>
 
         <div className="mt-8 flex justify-center">

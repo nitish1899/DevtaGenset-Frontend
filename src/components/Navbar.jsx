@@ -14,9 +14,19 @@ export const Navbar = () => {
       <div className="flex flex-wrap items-center justify-between max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 py-3">
         
         {/* Logo or Brand Section */}
-        <div className="flex items-center">
+        {/* <div className="flex items-center">
           <Link to="/" className=" text-lg font-bold text-cyan-500">Devta Gensets Pvt Ltd</Link>
+        </div> */}
+
+        <div className="flex items-center">
+          <Link
+            to="/"
+            className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-cyan-500"
+          >
+            Devta Gensets Pvt Ltd
+          </Link>
         </div>
+
 
         {/* Desktop Links */}
         <div className="hidden md:flex gap-6 lg:gap-14 text-lg items-center font-semibold">

@@ -13,7 +13,7 @@ export const Footer = () => {
             <img src={logo} className="w-[80px] h-[60px] mb-4" alt="Logo" />
           </Link>
           <p className="text-sm">
-          373 Village Shahbad Daulatpur North West Delhi New Delhi - 110042, Delhi, India 
+            373 Village Shahbad Daulatpur North West Delhi New Delhi - 110042, Delhi, India
           </p>
           <div className="flex mt-4 space-x-4">
             <FaFacebook />
@@ -50,9 +50,9 @@ export const Footer = () => {
         <div>
           <h3 className="font-semibold mb-4">Get In Touch</h3>
           <p className="text-sm">
-          373 Village Shahbad Daulatpur North West Delhi New Delhi - 110042, Delhi, India 
+            373 Village Shahbad Daulatpur North West Delhi New Delhi - 110042, Delhi, India
           </p>
-          <p className="text-sm">support@gmail.com</p>
+          <p className="text-sm">support@devtagensets.com</p>
           <p className="text-sm">+91-9999966177</p>
           <p className="text-sm">+91-9999966155</p>
           <p className="text-sm">+91-9999966162</p>

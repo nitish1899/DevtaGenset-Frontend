@@ -111,22 +111,39 @@ export const Service = () => {
 
   return (
     <div className="w-screen bg-gradient-to-b from-white to-white">
-
       <div className="relative min-h-screen pt-24 bg-blue-400">
         {/* Background Image */}
         <div
-          className="absolute inset-0 bg-cover bg-center z-0"
-          style={{ backgroundImage: `url(${crausal8})` }}
+          className="absolute inset-0 bg-center z-0"
+          style={{
+            backgroundImage: `url(${crausal8})`,
+            backgroundSize: 'cover',
+          }}
         ></div>
+
         <header className="relative z-10 text-center mb-6 px-4">
-          <h1 className="text-6xl text-white font-bold"
-            style={{ textShadow: "2px 2px 4px black, 4px 4px 6px rgba(0, 0, 0, 0.6)" }}>SERVICES WE PROVIDE</h1>
-          <h2 className="text-xl text-white font-semibold mt-20" style={{ textShadow: "2px 2px 4px black, 4px 4px 6px rgba(0, 0, 0, 0.6)" }}>we provide comprehensive power solutions tailored to meet your energy needs. Whether you're seeking reliable backup power for your business, industrial site, or residential property, our expert team ensures you get the right solution for uninterrupted power. Our services include:</h2>
-
+          <h1
+            className="text-4xl sm:text-5xl md:text-6xl text-white font-bold"
+            style={{
+              textShadow: "2px 2px 4px black, 4px 4px 6px rgba(0, 0, 0, 0.6)",
+            }}
+          >
+            SERVICES WE PROVIDE
+          </h1>
+          <h2
+            className="text-base sm:text-lg md:text-xl text-white font-semibold mt-8 sm:mt-10 md:mt-20"
+            style={{
+              textShadow: "2px 2px 4px black, 4px 4px 6px rgba(0, 0, 0, 0.6)",
+            }}
+          >
+            We provide comprehensive power solutions tailored to meet your energy needs.
+            Whether you're seeking reliable backup power for your business, industrial site,
+            or residential property, our expert team ensures you get the right solution for
+            uninterrupted power. Our services include:
+          </h2>
         </header>
-
-
       </div>
+
 
 
       {/* Key benefits section */}
@@ -391,12 +408,9 @@ export const Service = () => {
             Explore More
           </Link>
         </div>
-
       </div>
 
-
-
-      <div className="flex flex-col min-h-screen w-full justify-items-center items-center py-2 px-4 bg-black">
+      <div className="flex flex-col min-h-fit w-full justify-items-center items-center py-2 px-4 bg-black">
         {/* Heading */}
         <div className="font-extrabold text-4xl md:text-5xl text-blue-700 text-center mb-8"
           style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)" }}>
@@ -408,7 +422,7 @@ export const Service = () => {
           We take pride in serving a diverse group of customers who trust our services to enhance their work and life.
         </div>
 
-        <div className="m-16 mt-4">
+        <div className="m-16 mt-4 mb-4 ">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
             <img src={coconstructionSite} alt="Customer Image 2" className="w-full h-40 object-cover rounded-lg" />
             <img src={factoryImage} alt="Customer Image 3" className="w-full h-40 object-cover rounded-lg" />
@@ -418,6 +432,7 @@ export const Service = () => {
           </div>
         </div>
       </div>
+
       {/* 
       <div className="flex flex-col min-h-screen w-full justify-around items-center py-12 px-4 bg-black">
       
@@ -444,8 +459,6 @@ export const Service = () => {
         </div>
 
       </div> */}
-
-
 
       <BusinessBook />
     </div>

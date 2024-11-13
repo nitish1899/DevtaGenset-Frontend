@@ -45,7 +45,7 @@ export const Navbar = () => {
           <Book />
           <a href="tel:9999966177" className="flex items-center text-green-500 text-xl hover:text-green-700 transition gap-1">
             <FaPhoneAlt />
-            <span>999-996-6177</span>
+            <span>Call +91-9999966177</span>
           </a>
         </div>
 
@@ -67,7 +67,7 @@ export const Navbar = () => {
           <Book />
           <a href="tel:9999966177" className="flex items-center text-green-500 text-xl hover:text-green-700 transition mt-2 gap-1">
             <FaPhoneAlt />
-            <span>999-996-6177</span>
+            <span> Call +91-9999966177</span>
           </a>
         </div>
       )}

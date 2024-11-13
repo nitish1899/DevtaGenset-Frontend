@@ -161,10 +161,6 @@ export const Home = () => {
         </div>
       </div>
 
-
-
-
-
       <div className="flex flex-col min-h-screen w-full justify-around items-center py-12 px-4 bg-black">
         {/* Heading */}
         <div
@@ -243,7 +239,6 @@ export const Home = () => {
           </a>
         </div>
       </div>
-
 
       {/* Key benefits section */}
       <div className="flex flex-col min-h-screen w-full justify-around items-center py-12 px-4 bg-black">
@@ -376,7 +371,6 @@ export const Home = () => {
         </div>
 
       </div>
-
 
       <MissionVision />
 

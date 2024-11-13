@@ -16,24 +16,24 @@ import { Service } from "./pages/Service";
 
 const App = () => {
   const media = { mobile: "768px", tab: "998px" };
-  return(
+  return (
     <div >
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/product" element={<Product/>}/>
-      <Route path="/about" element={<AboutUs/>}/>
-      <Route path="/service" element={<Service/>}/>
-      <Route path="/booking" element={<Booking/>}/>
-      <Route path="/ContactUs" element={<ContactUs/>}/>
-      <Route path="/paymentsuccess" element={< PaymentSuccess />} />
-      <Route path="/distribution" element={<  Distrubuter />}   />
-      <Route path="/socialmedia" element={<  SocialMedia />}   />
-      <Route path="/MissionVision" element={<  MissionVision />}   />
-      
-    </Routes>
-    <Footer/>
-    
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="/booking" element={<Booking />} />
+        <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/paymentsuccess" element={< PaymentSuccess />} />
+        <Route path="/distribution" element={<  Distrubuter />} />
+        <Route path="/socialmedia" element={<  SocialMedia />} />
+        <Route path="/MissionVision" element={<  MissionVision />} />
+
+      </Routes>
+      <Footer />
+
     </div>
   )
 };

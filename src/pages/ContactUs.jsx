@@ -76,16 +76,19 @@ export const ContactUs = () => {
       {/* Background Section */}
       <div className="relative min-h-screen pt-24 bg-blue-400">
         <div
-          className="absolute inset-0 bg-cover bg-center z-0 "
+          className="absolute inset-0 bg-cover bg-center z-0"
           style={{ backgroundImage: `url(${crausal16})` }}
         ></div>
         <header className="relative z-10 text-center mb-6 px-4">
-          <h1 className="text-6xl text-white font-bold" style={{ textShadow: "2px 2px 4px black, 4px 4px 6px rgba(0, 0, 0, 0.6)" }}>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl text-white font-bold" style={{ textShadow: "2px 2px 4px black, 4px 4px 6px rgba(0, 0, 0, 0.6)" }}>
             CONTACT US
           </h1>
-          <h2 className="text-xl text-white font-semibold mt-20" style={{ textShadow: "2px 2px 4px black, 4px 4px 6px rgba(0, 0, 0, 0.6)" }}>we are committed to providing exceptional customer service. Whether you have inquiries about our products, services, or want to discuss your power requirements, our dedicated team is here to assist you.</h2>
+          <h2 className="text-sm sm:text-base md:text-xl text-white font-semibold mt-8 md:mt-20 px-2 md:px-4" style={{ textShadow: "2px 2px 4px black, 4px 4px 6px rgba(0, 0, 0, 0.6)" }}>
+            We are committed to providing exceptional customer service. Whether you have inquiries about our products, services, or want to discuss your power requirements, our dedicated team is here to assist you.
+          </h2>
         </header>
       </div>
+
 
       {/* Contact Form Section */}
       <div className="bg-black">

@@ -71,30 +71,14 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className="overflow-hidden relative">
+    <div className="overflow-hidden relative w-screen">
       <ToastContainer />
-      {/* Background Section */}
-      <div className="relative min-h-screen pt-24 bg-blue-400">
-        <div
-          className="absolute inset-0 bg-cover bg-center z-0"
-          style={{ backgroundImage: `url(${crausal16})` }}
-        ></div>
-        <header className="relative z-10 text-center mb-6 px-4">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl text-white font-bold" style={{ textShadow: "2px 2px 4px black, 4px 4px 6px rgba(0, 0, 0, 0.6)" }}>
-            CONTACT US
-          </h1>
-          <h2 className="text-sm sm:text-base md:text-xl text-white font-semibold mt-8 md:mt-20 px-2 md:px-4" style={{ textShadow: "2px 2px 4px black, 4px 4px 6px rgba(0, 0, 0, 0.6)" }}>
-            We are committed to providing exceptional customer service. Whether you have inquiries about our products, services, or want to discuss your power requirements, our dedicated team is here to assist you.
-          </h2>
-        </header>
-      </div>
+
 
 
       {/* Contact Form Section */}
       <div className="bg-black">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 text-center text-blue-700 pt-20" style={{ textShadow: "2px 2px 4px black, 4px 4px 6px rgba(0, 0, 0, 0.6)" }}>
-          Contact us by filling this form
-        </h1>
+
         <div className="flex flex-col md:flex-row md:space-x-10 items-start justify-between p-6">
           {/* Form Section */}
           <div className="w-full md:w-1/2 bg-black bg-opacity-10 p-8 rounded-md shadow-md">
@@ -190,15 +174,16 @@ export const ContactUs = () => {
           </div>
           <div className="w-full md:w-1/2 mt-10 md:mt-0 bg-black bg-opacity-10">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14024.306228264553!2d77.13197781900153!3d28.696942428850727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03391d87af2d%3A0x6e945d5d3e98e1c!2sNetaji%20Subhash%20Place%2C%20Pitam%20Pura%2C%20Delhi%2C%20110034%2C%20India!5e0!3m2!1sen!2sus!4v1630075295083!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14024.306228264553!2d77.1081171!3d28.7490357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0129b68de513%3A0x2cb6c78176510261!2z4KSm4KWH4KS14KSk4KS-IOCknOClh-CkqOCksOClh-Ckn-CksCDgpLjgpYfgpJ8!5e0!3m2!1sen!2sus!4v1630075295083!5m2!1sen!2sus"
               width="100%"
               height="540"
-              style={{ border: 0 }}
-              allowFullScreen=""
+              allowfullscreen=""
               loading="lazy"
-              title="Netaji Subhash Place, Delhi"
+              title="Devta Generator Set"
             />
           </div>
+
+
         </div>
       </div>
 

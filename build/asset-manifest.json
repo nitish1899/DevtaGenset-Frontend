@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9f99f00.css",
-    "main.js": "/static/js/main.785514ff.js",
+    "main.css": "/static/css/main.a25b3d8a.css",
+    "main.js": "/static/js/main.fcdfb840.js",
     "static/js/787.219025fc.chunk.js": "/static/js/787.219025fc.chunk.js",
     "static/media/DistributerFlex.png": "/static/media/DistributerFlex.4fbec9ce110e74bb91d6.png",
+    "static/media/dev3.png": "/static/media/dev3.ae0f17d9e0383db276b0.png",
     "static/media/DevtaGensets2.jpg": "/static/media/DevtaGensets2.8b4a48aa502f0e00a448.jpg",
+    "static/media/dev1.jpg": "/static/media/dev1.8b4a48aa502f0e00a448.jpg",
+    "static/media/dev2.png": "/static/media/dev2.a5923b9118f5d25c37fb.png",
     "static/media/prodcuthero.png": "/static/media/prodcuthero.b39f74a9469d831dad3f.png",
     "static/media/crausal16.png": "/static/media/crausal16.0f38f0b55c02d87bf4e2.png",
+    "static/media/banquet.png": "/static/media/banquet.f6dd9c0e892feb975752.png",
     "static/media/logoabout4.png": "/static/media/logoabout4.53848874968117ea0d27.png",
     "static/media/crausal18.png": "/static/media/crausal18.31e419bcd0e5dc973c6b.png",
     "static/media/crausal17.png": "/static/media/crausal17.b83f26fe88be466addd5.png",
+    "static/media/logoabout6.png": "/static/media/logoabout6.73fbe2f14d49ba58985e.png",
     "static/media/logoabout3.png": "/static/media/logoabout3.87ba4871a287b0ac683f.png",
     "static/media/news_clipping.jpeg": "/static/media/news_clipping.34963cabdb7a4cfd1495.jpeg",
     "static/media/uttam.png": "/static/media/uttam.be1051501db2d72af675.png",
@@ -44,18 +49,21 @@
     "static/media/service13.png": "/static/media/service13.9ab5bcc286e2de02c1c8.png",
     "static/media/mall.jpg": "/static/media/mall.c7d3bed12b3e5aa649b5.jpg",
     "static/media/service5.png": "/static/media/service5.37f3dcde8a571c69add8.png",
+    "static/media/devprakash.jpg": "/static/media/devprakash.20a6a576f758d75fdd20.jpg",
     "static/media/compare_list.png": "/static/media/compare_list.a197324db3007edda37c.png",
     "static/media/hospital.jpg": "/static/media/hospital.ea7c5e9ee0274d491f2f.jpg",
+    "static/media/braham.jpg": "/static/media/braham.a8a1afd9feef7dc34fe1.jpg",
     "static/media/brahamrana.png": "/static/media/brahamrana.83f08d94a4182c5349b7.png",
     "static/media/factory image.jpg": "/static/media/factory image.4fb2fab819ce438cb200.jpg",
     "static/media/bike_main.png": "/static/media/bike_main.f3a8ca3e8d9e73ce8ca1.png",
+    "static/media/devtagensets2.png": "/static/media/devtagensets2.46181c9501c153278ba6.png",
     "index.html": "/index.html",
-    "main.a9f99f00.css.map": "/static/css/main.a9f99f00.css.map",
-    "main.785514ff.js.map": "/static/js/main.785514ff.js.map",
+    "main.a25b3d8a.css.map": "/static/css/main.a25b3d8a.css.map",
+    "main.fcdfb840.js.map": "/static/js/main.fcdfb840.js.map",
     "787.219025fc.chunk.js.map": "/static/js/787.219025fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9f99f00.css",
-    "static/js/main.785514ff.js"
+    "static/css/main.a25b3d8a.css",
+    "static/js/main.fcdfb840.js"
   ]
 }

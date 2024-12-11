@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e50a4ed5.css",
-    "main.js": "/static/js/main.d99766ac.js",
+    "main.js": "/static/js/main.f8674df4.js",
     "static/js/787.219025fc.chunk.js": "/static/js/787.219025fc.chunk.js",
     "static/media/dev3.png": "/static/media/dev3.ae0f17d9e0383db276b0.png",
     "static/media/DevtaGensets2.jpg": "/static/media/DevtaGensets2.8b4a48aa502f0e00a448.jpg",
@@ -30,14 +30,14 @@
     "static/media/hospital.jpg": "/static/media/hospital.ea7c5e9ee0274d491f2f.jpg",
     "static/media/braham.jpg": "/static/media/braham.a8a1afd9feef7dc34fe1.jpg",
     "static/media/factory image.jpg": "/static/media/factory image.4fb2fab819ce438cb200.jpg",
-    "static/media/devta.png": "/static/media/devta.25c8941b8cbf36c2070f.png",
+    "static/media/devtagensets2.png": "/static/media/devtagensets2.46181c9501c153278ba6.png",
     "index.html": "/index.html",
     "main.e50a4ed5.css.map": "/static/css/main.e50a4ed5.css.map",
-    "main.d99766ac.js.map": "/static/js/main.d99766ac.js.map",
+    "main.f8674df4.js.map": "/static/js/main.f8674df4.js.map",
     "787.219025fc.chunk.js.map": "/static/js/787.219025fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e50a4ed5.css",
-    "static/js/main.d99766ac.js"
+    "static/js/main.f8674df4.js"
   ]
 }

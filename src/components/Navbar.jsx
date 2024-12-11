@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaPhoneAlt } from 'react-icons/fa';
 import { IoReorderThreeOutline } from 'react-icons/io5';
 import { Book } from './Book';
-import devtagensets from '../resource/devta.png';
+import devtagensets from '../resource/devtagensets2.png';
 
 export const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -12,7 +12,7 @@ export const Navbar = () => {
     <div className="h-16 sticky top-0 z-50 w-screen bg-black shadow-md">
       {/* Navbar Container */}
       <div className="flex items-center justify-between max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 py-3">
-        
+
         {/* Logo Section */}
         <div className="flex items-center flex-shrink-0">
           <Link to="/" className="flex items-center">
@@ -111,6 +111,6 @@ export const Navbar = () => {
           </a>
         </div>
       )}
-    </div>
-  );
+    </div>
+  );
 };

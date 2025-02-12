@@ -1,13 +1,27 @@
 import React from "react";
+import crausal1 from "../resource/DevtaGensets2.jpg";
+import crausal2 from "../resource/crausal2.jpg";
+import crausal3 from "../resource/crausal3.jpg";
+import crausal4 from "../resource/crausal4.jpg";
+import crausal5 from "../resource/crausal5.jpg";
+import crausal6 from "../resource/crausal6.jpg";
+import home2 from "../resource/crausal17.png";
+import home3 from "../resource/crausal18.png";
+import crausal7 from "../resource/crausal7.jpg";
+import crausal8 from "../resource/crausal8.jpg";
+import crausal16 from "../resource/crausal16.png";
+import service1 from "../resource/service1.png";
 import service2 from "../resource/service2.png";
 import service3 from "../resource/service3.png";
 import service4 from "../resource/service4.png";
+import service5 from "../resource/service5.png";
 import service6 from "../resource/service6.png";
 import service7 from "../resource/service7.png";
 import service8 from "../resource/service8.png";
 import service9 from "../resource/service9.png";
 import service10 from "../resource/service10.png";
 import service11 from "../resource/service11.png";
+import service12 from "../resource/service12.png";
 import service13 from "../resource/service13.png";
 import dmrc from "../resource/dmrc images.jpg";
 import coconstructionSite from "../resource/construction_sites.jpeg";
@@ -18,9 +32,14 @@ import { Carousel } from 'react-responsive-carousel';
 import dev1 from "../resource/dev1.jpg";
 import dev2 from "../resource/dev2.png";
 import dev3 from "../resource/dev3.png";
+
+
+import pusparaj from "../resource/pusparaj.png";
+import devrana from "../resource/devrana.png";
 import braham from "../resource/braham.jpg";
 import devprakash from "../resource/devprakash.jpg";
 import banquet from "../resource/banquet.png";
+import brahamrana from "../resource/brahamrana.png";
 
 
 import { keyBenefits } from "../Data/KeyBenefits";
@@ -36,6 +55,16 @@ import { AiOutlinePhone } from "react-icons/ai"; // Call Icon
 import { AiOutlineMail } from "react-icons/ai"; // Gmail Icon
 
 export const Home = () => {
+  const images = [
+    crausal1,
+    crausal2,
+    crausal3,
+    crausal4,
+    crausal5,
+    crausal6,
+    crausal7,
+    crausal8,
+  ];
 
   return (
     <div className="w-screen bg-gradient-to-b from-white to-white">

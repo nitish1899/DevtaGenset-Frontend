@@ -32,6 +32,7 @@ import { Carousel } from 'react-responsive-carousel';
 import dev1 from "../resource/dev1.jpg";
 import dev2 from "../resource/dev2.png";
 import dev3 from "../resource/dev3.png";
+import generator from "../resource/Generator-photo.jpeg"
 
 
 import pusparaj from "../resource/pusparaj.png";
@@ -68,77 +69,154 @@ export const Home = () => {
 
   return (
     <div className="w-screen bg-gradient-to-b from-white to-white">
-       <div className="relative">
-    <Carousel
-      autoPlay
-      infiniteLoop
-      showThumbs={false}
-      showStatus={false}
-      interval={3000}
-      className="h-full"
-      renderArrowPrev={(onClickHandler, hasPrev, label) =>
-        hasPrev && (
-          <button
-            type="button"
-            onClick={onClickHandler}
-            title={label}
-            className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow z-[100]"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              className="w-6 h-6"
+
+
+
+      <div className="relative w-full h-full overflow-hidden">
+        <img
+          src={generator}
+          alt="Generator Rental"
+          className="w-full max-h-[700px] sm:max-h-[400px] md:max-h-[700px] lg:max-h-[660px] object-contain mx-auto"
+        />
+
+        {/* <div className="absolute inset-0 flex flex-col justify-center items-start p-3 sm:p-24 md:p-12 z-20">
+          <div className="w-[60%] sm:w-[50%] md:w-[30%] bg-zinc-400 bg-opacity-10 backdrop-blur-md rounded-lg border border-transparent transform hover:shadow-2xl p-4 sm:p-8 md:p-8 shadow-lg">
+            <h1
+              className="text-blue-600 text-xl sm:text-base md:text-xl lg:text-3xl font-bold mb-4 text-center"
+              style={{
+                textShadow: "1px 1px 2px black, 2px 2px 3px rgba(0, 0, 0, 0.6)",
+              }}
             >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
-            </svg>
-          </button>
-        )
-      }
-      renderArrowNext={(onClickHandler, hasNext, label) =>
-        hasNext && (
-          <button
-            type="button"
-            onClick={onClickHandler}
-            title={label}
-            className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow z-[100]"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              className="w-6 h-6"
+              Effortless Renting of Generators
+            </h1>
+            <p
+              className="text-black text-sm sm:text-xs md:text-base mb-4 sm:mb-6 text-center"
+            // style={{
+            //   textShadow: "2px 2px 4px black, 4px 4px 6px rgba(0, 0, 0, 0.6)",
+            // }}
             >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
-        )
+              At Effortless Generators, we believe that renting generators should be
+              simple and stress-free. Our user-friendly platform connects buyers and
+              sellers, making it easier than ever to find the perfect generator for
+              your needs or to sell equipment with ease.
+            </p>
+          </div>
+        </div> */}
+
+        <div className="absolute inset-0 flex flex-col justify-center items-start p-3 sm:p-24 md:p-12 z-20">
+          <div className="w-[60%] sm:w-[50%] md:w-[30%] bg-zinc-400 bg-opacity-10 backdrop-blur-md rounded-lg border border-transparent transform hover:shadow-2xl p-4 sm:p-8 md:p-8 shadow-lg">
+            <h1
+              className="text-blue-600 text-base sm:text-base md:text-xl lg:text-3xl font-bold mb-4 text-center"
+              style={{
+                textShadow: "1px 1px 2px black, 2px 2px 3px rgba(0, 0, 0, 0.6)",
+              }}
+            >
+              Effortless Renting of Generators
+            </h1>
+            <p className="text-black text-xs sm:text-xs md:text-base mb-4 sm:mb-6 text-center">
+              At Effortless Generators, we believe that renting generators should be
+              simple and stress-free. Our user-friendly platform connects buyers and
+              sellers, making it easier than ever to find the perfect generator for
+              your needs or to sell equipment with ease.
+            </p>
+          </div>
+        </div>
+
+        {/* Custom CSS for Screens < 400px */}
+        <style>
+          {`
+    @media (max-width: 400px) {
+      div.w-\[60%\] {
+        width: 70%; /* Increase width for small screens */
       }
-    >
-      <div>
-        <img
-          src={dev1}
-          alt="Slide 1"
-          className="object-cover w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-screen"
-        />
+      h1 {
+        font-size: 14px !important; /* Reduce title size */
+      }
+      p {
+        font-size: 10px !important; /* Reduce paragraph text */
+      }
+    }
+  `}
+        </style>
+
       </div>
-      <div>
-        <img
-          src={dev2}
-          alt="Slide 2"
-          className="object-cover w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-screen"
+
+      {/* <div className="relative"> */}
+      {/* <Carousel
+          autoPlay
+          infiniteLoop
+          showThumbs={false}
+          showStatus={false}
+          interval={3000}
+          className="h-full"
+          renderArrowPrev={(onClickHandler, hasPrev, label) =>
+            hasPrev && (
+              <button
+                type="button"
+                onClick={onClickHandler}
+                title={label}
+                className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow z-[100]"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
+                </svg>
+              </button>
+            )
+          }
+          renderArrowNext={(onClickHandler, hasNext, label) =>
+            hasNext && (
+              <button
+                type="button"
+                onClick={onClickHandler}
+                title={label}
+                className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow z-[100]"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            )
+          }
+        >
+          <div>
+            <img
+              src={dev1}
+              alt="Slide 1"
+              className="object-cover w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-screen"
+            />
+          </div>
+          <div>
+            <img
+              src={dev2}
+              alt="Slide 2"
+              className="object-cover w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-screen"
+            />
+          </div>
+          <div>
+            <img
+              src={dev3}
+              alt="Slide 3"
+              className="object-cover w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-screen"
+            />
+          </div>
+        </Carousel> */}
+      {/* <img
+          src={generator}
+          alt="Generator Rental"
+          className="w-full max-h-[500px] sm:max-h-[400px] md:max-h-[500px] lg:max-h-[600px] object-contain mx-auto"
         />
-      </div>
-      <div>
-        <img
-          src={dev3}
-          alt="Slide 3"
-          className="object-cover w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-screen"
-        />
-      </div>
-    </Carousel>
-    <div className="absolute inset-0 flex flex-col justify-center items-start p-4 sm:p- md:p-12 mt-12 sm:mt-6 z-20">
-          <div className="max-w-full sm:max-w-xl bg-white bg-opacity-10 backdrop-blur-md rounded-lg border border-transparent transform hover:shadow-2xl p-4 sm:p-6 md:p-8 mx-2 sm:mx-4 shadow-lg">
+        <div className="absolute inset-0 flex flex-col justify-center items-start p-4 sm:p- md:p-12 mt-12 sm:mt-6 z-20">
+          <div className="max-w-full sm:max-w-xl bg-zinc-400 bg-opacity-10 backdrop-blur-md rounded-lg border border-transparent transform hover:shadow-2xl p-4 sm:p-6 md:p-8 mx-2 sm:mx-4 shadow-lg">
             <h1
               className="text-blue-600 text-3xl sm:text-2xl md:text-6xl font-bold mb-4"
               style={{
@@ -159,9 +237,12 @@ export const Home = () => {
               your needs or to sell equipment with ease.
             </p>
           </div>
-        </div>
-  </div>
-  <div className="fixed bottom-6 right-6 flex flex-col space-y-3 z-30">
+        </div> */}
+
+
+
+      {/* </div> */}
+      <div className="fixed bottom-6 right-6 flex flex-col space-y-3 z-30">
         {/* Call Button */}
         <a
           href="tel:+919999966177"
@@ -177,8 +258,8 @@ export const Home = () => {
           <AiOutlineMail className="w-8 h-8" />
         </a>
       </div>
-      
-  <div className="flex flex-col min-h-screen w-full justify-around items-center py-12 px-4 bg-black">
+
+      <div className="flex flex-col min-h-screen w-full justify-around items-center py-12 px-4 bg-black">
         {/* Heading */}
         <div
           className="font-extrabold text-4xl md:text-5xl text-blue-700 text-center mb-4"
@@ -199,103 +280,103 @@ export const Home = () => {
           ))}
         </div>
       </div>
-      
 
-    <div className="flex flex-col min-h-screen w-full justify-around items-center py-6 px-4 bg-black">
-  {/* Heading */}
-  <div
-    className="font-extrabold text-4xl md:text-5xl text-blue-500 text-center mb-6"
-    style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)" }}
-  >
-    Our Services
-  </div>
 
-  {/* Subheading */}
-  <div className="text-lg text-gray-200 text-center mb-8 max-w-2xl sm:mb-6">
-    Discover our range of services tailored to meet your energy needs. Whether you're looking to rent, buy, sell, or maintain power solutions, we have options for everyone.
-  </div>
+      <div className="flex flex-col min-h-screen w-full justify-around items-center py-6 px-4 bg-black">
+        {/* Heading */}
+        <div
+          className="font-extrabold text-4xl md:text-5xl text-blue-500 text-center mb-6"
+          style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)" }}
+        >
+          Our Services
+        </div>
 
-  {/* Rent, Buy, Sell, Maintenance Sections */}
-  <div className="flex flex-wrap justify-center gap-8 w-full px-6 max-w-screen-xl">
-    {/* Rent Section */}
-    <div
-      className="bg-white w-full sm:w-80 md:w-96 lg:w-[30%] xl:w-[28%] p-6 rounded-xl border-4 border-blue-200 hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl"
-      style={{ boxShadow: '0 10px 30px rgba(0, 0, 0, 0.5)' }}
-    >
-      <h3 className="font-bold text-xl mb-4 text-blue-500">Rent</h3>
-      <p className="text-gray-700 mb-4">
-        Affordable generator rentals for every need. From construction sites to events, we provide reliable power solutions ranging from 125 kVA to 2500 kVA. Enjoy flexible rental terms and 24/7 service.
-      </p>
-      <p className="font-semibold">Top Brands:</p>
-      <ul className="list-disc list-inside text-gray-700">
-        <li>Caterpillar</li>
-        <li>Cummins</li>
-        <li>Kirloskar</li>
-      </ul>
-    </div>
+        {/* Subheading */}
+        <div className="text-lg text-gray-200 text-center mb-8 max-w-2xl sm:mb-6">
+          Discover our range of services tailored to meet your energy needs. Whether you're looking to rent, buy, sell, or maintain power solutions, we have options for everyone.
+        </div>
 
-    {/* Buy Section */}
-    <div
-      className="bg-white w-full sm:w-80 md:w-96 lg:w-[30%] xl:w-[28%] p-6 rounded-xl border-4 border-blue-200 hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl"
-      style={{ boxShadow: '0 10px 30px rgba(0, 0, 0, 0.5)' }}
-    >
-      <h3 className="font-bold text-xl mb-4 text-blue-500">Buy</h3>
-      <p className="text-gray-700 mb-4">
-        Invest in long-term power solutions with our range of diesel and gas generators. Ideal for industrial, commercial, and residential use, our generators come with installation and post-purchase support.
-      </p>
-      <p className="font-semibold">Featured Products:</p>
-      <ul className="list-disc list-inside text-gray-700">
-        <li>400 kVA Caterpillar Powerol Diesel Generator</li>
-        <li>1500 kVA Cummins Diesel Generator</li>
-      </ul>
-    </div>
+        {/* Rent, Buy, Sell, Maintenance Sections */}
+        <div className="flex flex-wrap justify-center gap-8 w-full px-6 max-w-screen-xl">
+          {/* Rent Section */}
+          <div
+            className="bg-white w-full sm:w-80 md:w-96 lg:w-[30%] xl:w-[28%] p-6 rounded-xl border-4 border-blue-200 hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl"
+            style={{ boxShadow: '0 10px 30px rgba(0, 0, 0, 0.5)' }}
+          >
+            <h3 className="font-bold text-xl mb-4 text-blue-500">Rent</h3>
+            <p className="text-gray-700 mb-4">
+              Affordable generator rentals for every need. From construction sites to events, we provide reliable power solutions ranging from 125 kVA to 2500 kVA. Enjoy flexible rental terms and 24/7 service.
+            </p>
+            <p className="font-semibold">Top Brands:</p>
+            <ul className="list-disc list-inside text-gray-700">
+              <li>Caterpillar</li>
+              <li>Cummins</li>
+              <li>Kirloskar</li>
+            </ul>
+          </div>
 
-    {/* Sell Section */}
-    <div
-      className="bg-white w-full sm:w-80 md:w-96 lg:w-[30%] xl:w-[28%] p-6 rounded-xl border-4 border-blue-200 hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl"
-      style={{ boxShadow: '0 10px 30px rgba(0, 0, 0, 0.5)' }}
-    >
-      <h3 className="font-bold text-xl mb-4 text-blue-500">Sell</h3>
-      <p className="text-gray-700 mb-4">
-        Sell your used generators with ease. We provide a fair evaluation and transparent process, offering you the best value for your equipment while helping others access affordable power solutions.
-      </p>
-      <p className="font-semibold">Accepted Brands:</p>
-      <ul className="list-disc list-inside text-gray-700">
-        <li>Sudhir</li>
-        <li>Kirloskar</li>
-        <li>Caterpillar Powerol</li>
-      </ul>
-    </div>
+          {/* Buy Section */}
+          <div
+            className="bg-white w-full sm:w-80 md:w-96 lg:w-[30%] xl:w-[28%] p-6 rounded-xl border-4 border-blue-200 hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl"
+            style={{ boxShadow: '0 10px 30px rgba(0, 0, 0, 0.5)' }}
+          >
+            <h3 className="font-bold text-xl mb-4 text-blue-500">Buy</h3>
+            <p className="text-gray-700 mb-4">
+              Invest in long-term power solutions with our range of diesel and gas generators. Ideal for industrial, commercial, and residential use, our generators come with installation and post-purchase support.
+            </p>
+            <p className="font-semibold">Featured Products:</p>
+            <ul className="list-disc list-inside text-gray-700">
+              <li>400 kVA Caterpillar Powerol Diesel Generator</li>
+              <li>1500 kVA Cummins Diesel Generator</li>
+            </ul>
+          </div>
 
-    {/* Periodic Maintenance Section */}
-    <div
-      className="bg-white w-full sm:w-80 md:w-96 lg:w-[30%] xl:w-[28%] p-6 rounded-xl border-4 border-blue-200 hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl"
-      style={{ boxShadow: '0 10px 30px rgba(0, 0, 0, 0.5)' }}
-    >
-      <h3 className="font-bold text-xl mb-4 text-blue-500">Periodic Maintenance</h3>
-      <p className="text-gray-700 mb-4">
-        Keep your power solutions running efficiently with our periodic maintenance services. We offer scheduled check-ups, preventive maintenance, and emergency services to ensure your generators operate smoothly at all times.
-      </p>
-      <p className="font-semibold">Maintenance Services Include:</p>
-      <ul className="list-disc list-inside text-gray-700">
-        <li>Engine Diagnostics and Tune-Up</li>
-        <li>Fuel System Check</li>
-        <li>Oil and Filter Replacement</li>
-        <li>Cooling System Inspection</li>
-      </ul>
-    </div>
-  </div>
+          {/* Sell Section */}
+          <div
+            className="bg-white w-full sm:w-80 md:w-96 lg:w-[30%] xl:w-[28%] p-6 rounded-xl border-4 border-blue-200 hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl"
+            style={{ boxShadow: '0 10px 30px rgba(0, 0, 0, 0.5)' }}
+          >
+            <h3 className="font-bold text-xl mb-4 text-blue-500">Sell</h3>
+            <p className="text-gray-700 mb-4">
+              Sell your used generators with ease. We provide a fair evaluation and transparent process, offering you the best value for your equipment while helping others access affordable power solutions.
+            </p>
+            <p className="font-semibold">Accepted Brands:</p>
+            <ul className="list-disc list-inside text-gray-700">
+              <li>Sudhir</li>
+              <li>Kirloskar</li>
+              <li>Caterpillar Powerol</li>
+            </ul>
+          </div>
 
-  {/* Explore More Button */}
-  <div className="flex justify-center mt-8">
-    <a
-      href="/"
-      className="bg-blue-700 text-white text-lg font-semibold py-3 px-6 rounded-md shadow hover:bg-yellow-400 transition duration-200 hover:scale-105"
-    >
-      Explore More
-    </a>
-  </div>
-</div>
+          {/* Periodic Maintenance Section */}
+          <div
+            className="bg-white w-full sm:w-80 md:w-96 lg:w-[30%] xl:w-[28%] p-6 rounded-xl border-4 border-blue-200 hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl"
+            style={{ boxShadow: '0 10px 30px rgba(0, 0, 0, 0.5)' }}
+          >
+            <h3 className="font-bold text-xl mb-4 text-blue-500">Periodic Maintenance</h3>
+            <p className="text-gray-700 mb-4">
+              Keep your power solutions running efficiently with our periodic maintenance services. We offer scheduled check-ups, preventive maintenance, and emergency services to ensure your generators operate smoothly at all times.
+            </p>
+            <p className="font-semibold">Maintenance Services Include:</p>
+            <ul className="list-disc list-inside text-gray-700">
+              <li>Engine Diagnostics and Tune-Up</li>
+              <li>Fuel System Check</li>
+              <li>Oil and Filter Replacement</li>
+              <li>Cooling System Inspection</li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Explore More Button */}
+        <div className="flex justify-center mt-8">
+          <a
+            href="/"
+            className="bg-blue-700 text-white text-lg font-semibold py-3 px-6 rounded-md shadow hover:bg-yellow-400 transition duration-200 hover:scale-105"
+          >
+            Explore More
+          </a>
+        </div>
+      </div>
 
 
       {/* Key benefits section */}
@@ -319,8 +400,7 @@ export const Home = () => {
               alt="Liquid Transportation"
               className="w-full h-40 object-cover mb-4 rounded-md sm:h-32 md:h-40 lg:h-48"
             />
-            <h4 className="font-bold mb-2">400 kVA Caterpillar Powerol Diesel Generator</h4>
-
+            <h4 className="font-bold mb-2">250 kVA Mahindra Powerol Diesel Generator</h4>
           </div>
 
 
@@ -380,7 +460,7 @@ export const Home = () => {
               alt="Specialized Transport"
               className="w-full h-40 object-cover mb-4 rounded-md sm:h-32 md:h-40 lg:h-48"
             />
-            <h4 className="font-bold mb-2">810 kVA Caterpillar Diesel Generator </h4>
+            <h4 className="font-bold mb-2">1000 kVA Cummins Diesel Genset</h4>
 
           </div>
           <div className="bg-white p-6 rounded-lg hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl">
@@ -389,7 +469,7 @@ export const Home = () => {
               alt="Specialized Transport"
               className="w-full h-40 object-cover mb-4 rounded-md sm:h-32 md:h-40 lg:h-48"
             />
-            <h4 className="font-bold mb-2">125 kVA Caterpillar Powerol Gas Generator</h4>
+            <h4 className="font-bold mb-2">125 kVA Mahindra Powerol Diesel Generator</h4>
 
           </div>
           <div className="bg-white p-6 rounded-lg hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl">
@@ -398,7 +478,7 @@ export const Home = () => {
               alt="Specialized Transport"
               className="w-full h-40 object-cover mb-4 rounded-md sm:h-32 md:h-40 lg:h-48"
             />
-            <h4 className="font-bold mb-2">625 KVA Caterpillar Powerol Diesel Generator</h4>
+            <h4 className="font-bold mb-2">625 kVA Cummins Diesel Generator</h4>
 
           </div>
           <div className="bg-white p-6 rounded-lg hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl">
@@ -407,7 +487,7 @@ export const Home = () => {
               alt="Specialized Transport"
               className="w-full h-40 object-cover mb-4 rounded-md sm:h-32 md:h-40 lg:h-48"
             />
-            <h4 className="font-bold mb-2">125 kva to 2500 kva</h4>
+            <h4 className="font-bold mb-2">125 kVA to 2500 kVA</h4>
 
           </div>
 
@@ -454,7 +534,7 @@ export const Home = () => {
             <h3 className="text-2xl font-bold text-white">Mr. Braham Rana</h3>
             <p className="text-white text-lg mb-2">Director</p>
             <p className="text-white text-md leading-relaxed line-clamp-7">
-            Braham Rana is the Director of Devta Gensets Private Limited, registered with the Ministry of Corporate Affairs. Based in North Delhi, India, he plays a pivotal role in overseeing the company’s operations and strategic direction. With a strong commitment to innovation and service excellence, Braham Rana has been instrumental in leading Devta Gensets to new heights, focusing on providing top-quality power solutions. Under his leadership, the company continues to thrive in delivering reliable energy systems and maintaining a reputation for industry expertise and customer satisfaction.
+              Braham Rana is the Director of Devta Gensets Private Limited, registered with the Ministry of Corporate Affairs. Based in North Delhi, India, he plays a pivotal role in overseeing the company’s operations and strategic direction. With a strong commitment to innovation and service excellence, Braham Rana has been instrumental in leading Devta Gensets to new heights, focusing on providing top-quality power solutions. Under his leadership, the company continues to thrive in delivering reliable energy systems and maintaining a reputation for industry expertise and customer satisfaction.
             </p>
           </div>
         </div>
@@ -492,39 +572,39 @@ export const Home = () => {
         </div>
 
         <div className="m-16 mt-4 mb-4 max-w-screen-xl mx-auto">
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-    <img 
-      src={coconstructionSite} 
-      alt="Customer Image 1" 
-      className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
-    />
-    <img 
-      src={factoryImage} 
-      alt="Customer Image 2" 
-      className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
-    />
-    <img 
-      src={dmrc} 
-      alt="Customer Image 3" 
-      className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
-    />
-    <img 
-      src={mall} 
-      alt="Customer Image 4" 
-      className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
-    />
-    <img 
-      src={hospital} 
-      alt="Customer Image 5" 
-      className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
-    />
-    <img 
-      src={banquet} 
-      alt="Customer Image 6" 
-      className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
-    />
-  </div>
-</div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+            <img
+              src={coconstructionSite}
+              alt="Customer Image 1"
+              className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
+            />
+            <img
+              src={factoryImage}
+              alt="Customer Image 2"
+              className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
+            />
+            <img
+              src={dmrc}
+              alt="Customer Image 3"
+              className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
+            />
+            <img
+              src={mall}
+              alt="Customer Image 4"
+              className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
+            />
+            <img
+              src={hospital}
+              alt="Customer Image 5"
+              className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
+            />
+            <img
+              src={banquet}
+              alt="Customer Image 6"
+              className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
+            />
+          </div>
+        </div>
 
 
 

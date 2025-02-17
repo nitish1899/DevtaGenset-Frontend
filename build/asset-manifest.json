@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.96bca1b0.css",
-    "main.js": "/static/js/main.0f833521.js",
+    "main.css": "/static/css/main.aef6f771.css",
+    "main.js": "/static/js/main.a3e261d2.js",
     "static/js/787.219025fc.chunk.js": "/static/js/787.219025fc.chunk.js",
     "static/media/DistributerFlex.png": "/static/media/DistributerFlex.4fbec9ce110e74bb91d6.png",
     "static/media/dev3.png": "/static/media/dev3.ae0f17d9e0383db276b0.png",
     "static/media/DevtaGensets2.jpg": "/static/media/DevtaGensets2.8b4a48aa502f0e00a448.jpg",
     "static/media/dev1.jpg": "/static/media/dev1.8b4a48aa502f0e00a448.jpg",
     "static/media/dev2.png": "/static/media/dev2.a5923b9118f5d25c37fb.png",
+    "static/media/Generator-photo.jpeg": "/static/media/Generator-photo.4dfe844af79672430e96.jpeg",
     "static/media/prodcuthero.png": "/static/media/prodcuthero.b39f74a9469d831dad3f.png",
     "static/media/crausal16.png": "/static/media/crausal16.0f38f0b55c02d87bf4e2.png",
     "static/media/banquet.png": "/static/media/banquet.f6dd9c0e892feb975752.png",
@@ -58,12 +59,12 @@
     "static/media/bike_main.png": "/static/media/bike_main.f3a8ca3e8d9e73ce8ca1.png",
     "static/media/devtagensets2.png": "/static/media/devtagensets2.46181c9501c153278ba6.png",
     "index.html": "/index.html",
-    "main.96bca1b0.css.map": "/static/css/main.96bca1b0.css.map",
-    "main.0f833521.js.map": "/static/js/main.0f833521.js.map",
+    "main.aef6f771.css.map": "/static/css/main.aef6f771.css.map",
+    "main.a3e261d2.js.map": "/static/js/main.a3e261d2.js.map",
     "787.219025fc.chunk.js.map": "/static/js/787.219025fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.96bca1b0.css",
-    "static/js/main.0f833521.js"
+    "static/css/main.aef6f771.css",
+    "static/js/main.a3e261d2.js"
   ]
 }

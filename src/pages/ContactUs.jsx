@@ -1,7 +1,7 @@
 import { useState } from "react";
 import React from 'react';
-import crausal1 from "../resource/DevtaGensets2.jpg";
-import crausal16 from "../resource/crausal18.png";
+// import crausal1 from "../resource/DevtaGensets2.jpg";
+// import crausal16 from "../resource/crausal18.png";
 import { BusinessBook } from "../components/BusinessBook";
 import { ContactCompany } from "../components/ContactCompany";
 import { MdEmail } from "react-icons/md";

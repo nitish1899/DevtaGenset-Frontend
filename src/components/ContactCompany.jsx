@@ -40,7 +40,7 @@ export const ContactCompany = () => {
               devtagensets@rediffmail.com
               </div>
               <div className="text-center md:text-left">
-                support@devtagensets.com
+              info@devtagensets.com
               </div>
             </div>
 
